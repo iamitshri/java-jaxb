@@ -1,7 +1,6 @@
 package jaxb.examples.business;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Persons>
+    <Person>
+        <firstName>Narendra</firstName>
+        <lastName>Modi</lastName>
+        <age>65</age>
+        <dateOfBirth>2017-09-26</dateOfBirth>
+        <address>Delhi</address>
+    </Person>
+    <Person>
+        <firstName>John</firstName>
+        <lastName>Pandit</lastName>
+        <age>12</age>
+        <dateOfBirth>2017-09-26</dateOfBirth>
+        <address>123 St, Highland</address>
+    </Person>
+</Persons>
