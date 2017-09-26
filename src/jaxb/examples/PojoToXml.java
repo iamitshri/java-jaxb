@@ -11,7 +11,7 @@ import javax.xml.bind.PropertyException;
 import jaxb.examples.business.Person;
 import jaxb.examples.business.PersonList;
 
-public class SimpleClassToXml {
+public class PojoToXml {
 
 	/**
 	 * Here are the objectives of this project
@@ -64,12 +64,12 @@ public class SimpleClassToXml {
 		p.setAddress("123 St, Highland");
 		p.setAge(12);
 		p.setDob(LocalDate.now());
-		
+
 		JAXBContext context = JAXBContext.newInstance(Person.class);
 		Marshaller marsherller = context.createMarshaller();
 		marsherller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 		marsherller.marshal(p, System.out);
-		 marsherller.marshal(p, new File("./src/resources/person.xml"));
+		marsherller.marshal(p, new File("./src/resources/person.xml"));
 	}
 	
 	

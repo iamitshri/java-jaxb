@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Person>
+    <firstName>John</firstName>
+    <lastName>Pandit</lastName>
+    <age>12</age>
+    <dateOfBirth>2017-09-26</dateOfBirth>
+    <address>123 St, Highland</address>
+</Person>

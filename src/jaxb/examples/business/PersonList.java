@@ -18,4 +18,8 @@ public class PersonList {
 	public void setPersonList(List<Person> personList) {
 		this.personList = personList;
 	}
+	@Override
+	public String toString() {
+		return "PersonList [personList=" + personList + "]";
+	}
 }
